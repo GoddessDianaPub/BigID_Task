@@ -28,7 +28,7 @@ global:
   # BigID Auth key
   authKey: ""
   # BigID Secret key
-  secretKey: ""
+  secretKey: "5e3dbb46a764033935abaa5d"
   ## @param global.existingSecretKeyName
   ## The name of an existing secret to be used for the secret key.
   existingSecretKeyName: ""
