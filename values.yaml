@@ -124,9 +124,7 @@ global:
     bigidHost: "bigid.example.com"
     rabbitmqHost: ""
     annotations: {}
-    tlsSelfSignedCreate:
-      true
-      # alb.ingress.kubernetes.io/target-type: instance
+    tlsSelfSignedCreate: true   # alb.ingress.kubernetes.io/target-type: instance
 
   ## BigiD APM Monitoring, Support: NewRelic, DataDog.
   apm:
